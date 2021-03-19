@@ -78,6 +78,7 @@ function TouristInfoCards() {
 function Footer() {
   return (
     <div>
+      <p>Test git push to netlify</p>
       <p>Loading....</p>
     </div>
   );
