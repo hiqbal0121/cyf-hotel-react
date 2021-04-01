@@ -1,6 +1,6 @@
 import React from "react";
-
 import Bookings from "./Bookings";
+import Footer from "./footer.js";
 import "./App.css";
 
 const App = () => {
@@ -35,6 +35,7 @@ function TouristInfoCards() {
       <div className="card1" class="col-sm-4">
         <img
           src="https://i1.wp.com/www.hisour.com/wp-content/uploads/2018/05/Architecture-in-Glasgow.jpg?w=1024&ssl=1"
+          alt="Glasgow City"
           className="card-img-top"
           height="300"
         />
@@ -48,6 +49,7 @@ function TouristInfoCards() {
       <div className="card2" class="col-sm-4">
         <img
           src="https://www.aboutmanchester.co.uk/wp-content/uploads/2020/06/DDCCD1FC-B7A7-4939-9EE1-8BD9274D8CCB.jpeg"
+          alt="Manchester City"
           className="card-img-top"
           height="300"
         />
@@ -61,6 +63,7 @@ function TouristInfoCards() {
       <div className="card3" class="col-sm-4">
         <img
           src="https://london.ac.uk/sites/default/files/styles/promo_large/public/2018-10/london-aerial-cityscape-river-thames_1.jpg?itok=BMaDUhjp"
+          alt="London City"
           className="card-img-top"
           height="300"
         />
@@ -74,20 +77,5 @@ function TouristInfoCards() {
     </div>
   );
 }
-
-function Footer() {
-  return (
-    <div>
-      <p>Test git push to netlify</p>
-      <p>Loading....</p>
-    </div>
-  );
-}
-
-// const FooterArray = [
-//   "123 Fake Street, London, E1 4UD",
-//   "hello@fakehotel.com",
-//   "0123 456789",
-// ];
 
 export default App;
