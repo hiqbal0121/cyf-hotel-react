@@ -1,7 +1,7 @@
 import React from "react";
 import Bookings from "./Bookings";
 import Footer from "./footer.js";
-import "./App.css";
+import Restaurant from "./Restaurant";
 
 const App = () => {
   return (
@@ -9,6 +9,7 @@ const App = () => {
       <Heading />
       <TouristInfoCards />
       <Bookings />
+      <Restaurant />
       <Footer />
     </div>
   );
